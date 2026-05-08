@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="OWOMUGISHA INNOCENT" content="This is a poultry website">
+    <meta name="keywords" content="login form,about us,home,services">
+    <title>About | Golden Hen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        .page-layout.no-bars {
+            flex-direction: column;
+            max-width: 1200px;
+        }
+        
+        .main-content.full-width {
+            flex: 1 1 100%;
+        }
+        
+        .about-images {
+            display: flex;
+            gap: 1rem;
+            margin: 1.2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .about-images img {
+            flex: 1 1 200px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-wrap">
+            <div class="nav-left">
+                <a href="index.html" class="nav-logo">
+                    <img src="IMAGES/Rooster on yellow circle logo _ Premium Vector.jfif" alt="Logo">
+                    <span>Golden Hen</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="About us.html" class="active"><i class="fas fa-info circle"></i> About</a></li>
+                    <li><a href="services.html"><i class="fas fa-tools"></i> Services</a></li>
+                    <li><a href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <span>🔎</span>
+                <input type="text" placeholder="Search...">
+            </div>
+            <button class="menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <div class="page-layout no-bars">
+        <main class="main-content full-width">
+            <h1>About Golden Hen Farms</h1>
+
+            <div class="about-images">
+                <img src="IMAGES/The Cost of Raising Meat Chickens - Is it Worth It_.jfif" alt="Our farm">
+                <img src="IMAGES/Keep your flock safe in the backyard.jfif" alt="Free range hens">
+                <img src="IMAGES/fresh eggs in black plastic tray for sale on market_ Egg panels.jfif" alt="Fresh eggs">
+            </div>
+
+            <div class="mission-grid">
+                <div class="mission-box">
+                    <h3>Our Goals</h3>
+                    <p>Provide 10,000 Ugandan families with affordable organic eggs by 2028. Train 500 smallholder farmers in sustainable poultry practices across Mukono.</p>
+                </div>
+                <div class="mission-box">
+                    <h3>Our Mission</h3>
+                    <p>To produce the healthiest, most ethical poultry products in Uganda while regenerating our soils and supporting local communities in Namubiru.</p>
+                </div>
+                <div class="mission-box">
+                    <h3>Our Vision</h3>
+                    <p>A Uganda where every family can access nutritious, cruelty-free protein from farms that heal the land and support rural livelihoods.</p>
+                </div>
+                <div class="mission-box">
+                    <h3>State of Ownership</h3>
+                    <p>Privately owned by Sarah Nakato. Registered with URSB. UNBS Organic Certified. NAADS approved training center since 2020.</p>
+                </div>
+            </div>
+
+            <p style="margin-top: 1.5rem;"><strong>Our Story:</strong> Founded in 2018 with 200 hens, Golden Hen now employs 14 people from Namubiru village and supplies over 40 restaurants in Kampala. Every bird lives outdoors with access to shade, dust baths, and natural forage.
+                We rotate chickens across 6 paddocks and use solar power for our hatchery.</p>
+        </main>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fa-solid fa-circle-user"></i>Contact Us</h4>
+                <p><i class="fa-solid fa-location-dot"></i>Plot 45, Namubiru Village<br>Mukono District, Uganda</p>
+                <p><i class="fa-solid fa-phone"></i>+256 772 123 456</p>
+                <p><i class="fa-regular fa-envelope"></i>orders@goldenhen.ug</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="about.html">About Our Farm</a>
+                <a href="services.html">Our Services</a>
+                <a href="//www.youtube.com/">FAQ</a>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <p>Get daily farm updates & recipes</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://twitter.com "><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://facebook.com "><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class=" footer-bottom ">
+            <p>&copy; 2026 Golden Hen Poultry Farm. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.menu-btn').addEventListener('click', () => {
+            document.querySelector('.nav-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
